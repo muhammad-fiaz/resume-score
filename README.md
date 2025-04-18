@@ -1,4 +1,4 @@
-# AI Job Fit Evaluator
+# AI Powered Resume Score Evaluator
 
 A Streamlit application that evaluates how well a candidate's profile matches a job description by analyzing their resume and GitHub profile.
 
@@ -19,6 +19,11 @@ A Streamlit application that evaluates how well a candidate's profile matches a 
 
 - Python 3.11 or higher
 - pip or uv package manager
+- Git (for cloning the repository)
+- A PDF resume file
+- GitHub profile URL
+- Job description text
+- Internet connection (for GitHub API access)
 
 ### Setup
 
