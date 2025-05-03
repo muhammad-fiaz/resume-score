@@ -1,4 +1,3 @@
-# Set environment variable to disable Streamlit's file watcher for PyTorch modules
 import os
 os.environ["STREAMLIT_WATCHDOG_IGNORE_MODULES"] = "torch,sentence_transformers"
 

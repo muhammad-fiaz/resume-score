@@ -1,6 +1,7 @@
 # AI Powered Resume Score Evaluator
 
 A Streamlit application that evaluates how well a candidate's profile matches a job description by analyzing their resume and GitHub profile.
+This tool uses natural language processing (NLP) and semantic similarity to provide a comprehensive score based on the candidate's skills, experience, and projects.
 
 ## Features
 
