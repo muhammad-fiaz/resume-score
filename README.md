@@ -24,8 +24,8 @@ A Streamlit application that evaluates how well a candidate's profile matches a 
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd pycharmmiscproject
+   git clone https://github.com/muhammad-fiaz/resume-score.git
+   cd resume-score
    ```
 
 2. Create and activate a virtual environment:
@@ -51,38 +51,11 @@ A Streamlit application that evaluates how well a candidate's profile matches a 
 
 ## Usage
 
-1. Run the Streamlit application:
+Run the Streamlit application:
    ```
    streamlit run main.py
    ```
 
-2. In the web interface:
-   - Upload a candidate's resume (PDF format)
-   - Enter the candidate's GitHub profile URL
-   - Enter the job description and requirements
-   - Click "Evaluate Candidate" to see the results
-
-## How It Works
-
-1. **Resume Parsing**:
-   - Extracts text from PDF using PyPDF2
-   - Uses spaCy for natural language processing
-   - Identifies skills, education, experience, and projects
-
-2. **GitHub Analysis**:
-   - Fetches repository data using the GitHub API
-   - Analyzes programming languages, stars, and activity
-   - Evaluates relevance to the job role
-
-3. **Matching Algorithm**:
-   - Uses sentence transformers to create embeddings
-   - Calculates semantic similarity between resume/GitHub and job description
-   - Identifies missing skills required by the job description
-
-4. **Scoring System**:
-   - Resume Score: 0-100% based on semantic similarity to job description
-   - GitHub Score: 0-100% based on relevance and quality of projects
-   - Final Fit Score: Weighted average (70% resume, 30% GitHub)
 
 ## Dependencies
 
@@ -93,6 +66,3 @@ A Streamlit application that evaluates how well a candidate's profile matches a 
 - PyGithub: GitHub API integration
 - requests: HTTP requests
 
-## License
-
-[Specify your license here]
