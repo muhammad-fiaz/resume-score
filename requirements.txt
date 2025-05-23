@@ -263,7 +263,7 @@ torchaudio==2.7.0
     # via resume-score (pyproject.toml)
 torchvision==0.22.0+cu128
     # via resume-score (pyproject.toml)
-tornado==6.4.2
+tornado==6.5.1
     # via streamlit
 tqdm==4.67.1
     # via
