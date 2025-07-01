@@ -134,7 +134,7 @@ packaging==24.2
     #   weasel
 pandas==2.2.3
     # via streamlit
-pillow==11.2.1
+pillow==11.3.0
     # via
     #   sentence-transformers
     #   streamlit
