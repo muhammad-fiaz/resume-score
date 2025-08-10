@@ -252,7 +252,7 @@ tokenizers==0.21.1
     # via transformers
 toml==0.10.2
     # via streamlit
-torch==2.7.0+cu128
+torch==2.7.1
     # via
     #   resume-score (pyproject.toml)
     #   accelerate
